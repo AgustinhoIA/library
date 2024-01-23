@@ -4,6 +4,7 @@ A simple library project to practice JS constructors
 JS
     1 Create the constructor for library
     2 Write a function that creates new books and stores them as arrays
+        how to automate the creation of new objects with book as prototype
     3 Write a function that loops through the array and displays each book on page
     4 Create a way to allow user to add new books (button, form, etc)
 
