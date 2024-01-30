@@ -39,9 +39,10 @@ HTML
         basics ✓
         first sons divs
         buttons
-        forms
+        forms 
     
     create forms to submit new books
+        create the form ✓
         should add new book to library section
         should ask for confirmation
         should display error in case something not working
