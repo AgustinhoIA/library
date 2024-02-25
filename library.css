@@ -1,8 +1,8 @@
 /* GENERAL SECTION */
 body {
 display: grid;
-grid-template-columns: 1fr 4fr;
-grid-template-rows: 1fr 5fr;
+grid-template-columns: 1fr 5fr;
+grid-template-rows: 1fr 8fr;
 margin: 0;
 }
 
