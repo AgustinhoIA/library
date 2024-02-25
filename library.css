@@ -4,22 +4,40 @@ display: grid;
 grid-template-columns: 1fr 4fr;
 grid-template-rows: 1fr 4fr;
 }
-
+ /* HEADER */
 .header {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
+}
+
+ .homeLogo {
+
+ }
+
+.libNav {
+
+}
+
+.libNav > button {
+
+}
+
+.userSection{
 
 }
 
 /* SIDEBAR SECTION */
 .sidebar {
-    grid-column: 1 / 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr 2fr;
 }
 
-.navigation {
+.homeIcon {
     
+}
+
+.form {
+
+}
+
+.form > fieldset {
+
 }
 
 .filters {

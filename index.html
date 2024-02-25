@@ -7,60 +7,74 @@
     <link rel="library.css" href="library.css">
 </head>
 <body>
-    <div class="header"></div>
-    <div class="sidebar"> 
-        <div class="navigation">
-            <button></button>
-            <button></button>
+  <div class="header">
+    <div class="homeLogo">
+      <img src="" alt="">
+    </div>
+    <div class="libNav">
+      <button class="books"></button>
+      <button class="movies"></button>
+      <button class="games"></button>
+    </div>
+    <div class="userSection">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="homeIcon">
+      <img id="homeLogo" src="" alt="">
+    </div> 
+    <div class="form">
+      <form class="addBookForm">
+        <fieldset>
+              <legend>Add a book!</legend>
+              <p>
+                <input type="text" 
+                        name="title" 
+                        id="title" 
+                        value="The leyend of Robin Hood" 
+                        required />
+                <label for="title">Title*</label>
+              </p>
+              <p>
+                <input type="text" 
+                        name="author" 
+                        id="author" 
+                        value="Sir Walter Scott"
+                        required />
+                <label for="author">Author*</label>
+              </p>
+              <p>
+                <input type="numbwe" 
+                        name="pages" 
+                        id="pages" 
+                        value="186" 
+                        required />
+                <label for="pages">Number of pages*</label>
+              </p>
+              <p>
+                <input type="checkbox" 
+                        name="read" 
+                        id="read" />
+                <label for="read">Read</label>
+              </p>
+              <p>
+                  <input type="file" id="cover" name="cover">
+                  <label for="cover">Upload cover art:</label>
+              </p>
+            </fieldset>
+          </form>
         </div>
         <div class="filters">
-            <form class="filterBy"></form>
+            <form class="filterBy">
+      
+            </form>
         </div>
-        <div class="form">
-            <form class="addBookForm">
-                <fieldset>
-                  <legend>Add a book!</legend>
-                  <p>
-                    <input type="text" 
-                           name="title" 
-                           id="title" 
-                           value="The leyend of Robin Hood" 
-                           required />
-                    <label for="title">Title*</label>
-                  </p>
-                  <p>
-                    <input type="text" 
-                           name="author" 
-                           id="author" 
-                           value="Sir Walter Scott"
-                           required />
-                    <label for="author">Author*</label>
-                  </p>
-                  <p>
-                    <input type="numbwe" 
-                           name="pages" 
-                           id="pages" 
-                           value="186" 
-                           required />
-                    <label for="pages">Number of pages*</label>
-                  </p>
-                  <p>
-                    <input type="checkbox" 
-                           name="read" 
-                           id="read" />
-                    <label for="read">Read</label>
-                  </p>
-                  <p>
-                      <input type="file" id="cover" name="cover">
-                      <label for="cover">Upload cover art:</label>
-                  </p>
-                </fieldset>
-              </form>
-        </div>
-    </div>
-    <div class="library">
+  </div>
+  <div class="library">
 
-    </div>
-    <script src="library.js"></script>
+  </div>
+  <script src="library.js"></script>
 </body>
 </html>
