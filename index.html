@@ -8,10 +8,14 @@
 </head>
 <body>
   <div class="header">
+    <div class="search-bar">
+      <input type="search" id="universal-search">
+      <img class="search-logo" src="media/search.svg" alt="">
+    </div>
     <div class="libNav">
-      <button class="books"></button>
-      <button class="movies"></button>
-      <button class="games"></button>
+      <button class="books">My books</button>
+      <button class="movies">My movies</button>
+      <button class="games">My games</button>
     </div>
     <div class="userSection">
       <div></div>
@@ -65,7 +69,17 @@
         </div>
         <div class="filters">
             <form class="filterBy">
-      
+              <input type="radio" id="Title" name="sortOptions" value="Title">
+              <label for="option1">Title</label><br>
+              
+              <input type="radio" id="Author" name="sortOptions" value="Author">
+              <label for="option3">Author</label><br>
+
+              <input type="radio" id="Length" name="sortOptions" value="Length">
+              <label for="option2">Lenght</label><br>
+
+              <input type="radio" id="Clear" name="sortOptions" value="Clear">
+              <label for="option2">Clear</label><br>
             </form>
         </div>
   </div>
