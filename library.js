@@ -13,7 +13,7 @@ function addBookToLibrary(title, author, pages, read) {
   myLibrary.push(newBook)
 }
 
-function AddNewBook(event) {
+function NewBook(event) {
   event.preventDefault(); 
 
   // Access form data
@@ -30,3 +30,4 @@ addBookToLibrary("name fo the wind", "pat ruff", "687", true);
 addBookToLibrary("doors of stone", "pat ruf", "1687", false)
 
 console.log(myLibrary[0].title)
+document.getElementById('addBookForm').addEventListener('submit', NewBook);
