@@ -10,11 +10,11 @@ JS
     3 Write a function that loops through the array and displays each book on page
 
     4 Create a way to allow users to add new books (Form)
-        first try, addevent listener that push info into DOM and creates card
+        first try, addevent listener ✓ that push info into DOM and creates card
     
     form should 
-        have the basic info be mandatory to submit
-        img optional
+        have the basic info be mandatory to submit ✓
+        img optional ✓
         ask for confirmation
 
         if possible
@@ -37,9 +37,9 @@ HTML
         
     2 properly tag each section
         basics ✓
-        first sons divs
-        buttons
-        forms 
+        first sons divs ✓
+        buttons ✓
+        forms ✓
     
     create forms to submit new books
         create the form ✓
